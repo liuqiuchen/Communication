@@ -1,19 +1,19 @@
 package com.project;
 
-/***²âÊÔÀà*/
+/**æµ‹è¯•ç±»**/
 public class Initial {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//¸¸ÀàµÄÒıÓÃÖ¸Ïò×ÓÀà¶ÔÏó
+		//çˆ¶ç±»çš„å¼•ç”¨æŒ‡å‘å­ç±»å¯¹è±¡
 		CSuper c1 = new Bus();
 		CSuper c2 = new Boat();
 		CSuper c3 = new Plane();
 		
-		c1.name = "¹«½»³µ";
-		c2.name = "ÂÖ´¬";
-		c3.name = "·É»ú";
+		c1.name = "å…¬äº¤è½¦";
+		c2.name = "è½®èˆ¹";
+		c3.name = "é£æœº";
 		
 		c1.people = 40;
 		c2.people = 200;
